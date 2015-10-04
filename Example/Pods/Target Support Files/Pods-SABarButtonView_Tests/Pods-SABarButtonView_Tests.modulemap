@@ -1,0 +1,6 @@
+framework module Pods_SABarButtonView_Tests {
+  umbrella header "Pods-SABarButtonView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

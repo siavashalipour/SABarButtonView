@@ -1,0 +1,14 @@
+PODS:
+  - SABarButtonView (0.1.0)
+
+DEPENDENCIES:
+  - SABarButtonView (from `../`)
+
+EXTERNAL SOURCES:
+  SABarButtonView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SABarButtonView: b4ac7a4179776617a4cf9bc19cabef04c5bb9bea
+
+COCOAPODS: 0.38.2

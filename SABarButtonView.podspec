@@ -9,17 +9,17 @@
 Pod::Spec.new do |s|
   s.name             = "SABarButtonView"
   s.version          = "0.1.0"
-  s.summary          = "A short description of SABarButtonView."
+  s.summary          = "A subclass of UIView which helps you to create toggle able views easily."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
+  s.description      = <<-SABarButtonView easily lets you design and create your TabBar in Interface builder using IBDesignables. Configure your tabButtons and attached the toggle able views and thats all. DESC
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SABarButtonView"
+  s.homepage         = "https://github.com/siavashalipour/SABarButtonView"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Siavash" => "siavash.apps@yahoo.coom" }
