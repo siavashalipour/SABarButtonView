@@ -42,6 +42,9 @@ No all you need is to have an outlout for your SABarButtonView in you ViewContro
 ```
 ## Release Notes
 
+Version 0.1.2
+* Add docs
+
 Version 0.1.1
 * Fixed delay in toggeling views
 * Update podsepec
