@@ -9,7 +9,7 @@
 
 SABarButtonView is a simple UIView subclass that creates tabBarButtons and handle the toggles between the views for you. It is easy to use since you can modify almost all the TabBar component inside the interface builder.
 
-![SABarButtonView Example](http://imgur.com/ir8cIcc)
+![SABarButtonView Example](http://i.imgur.com/tiibV4o.gif)
 
 ## Usage
 
@@ -27,12 +27,12 @@ pod "SABarButtonView"
 
 Simply add a UIView to your UIViewController and change to class to SABarButtonView. Then you can modify the properties by tapping on Attribute inspecter.
 
-![SABarButtonView Example](http://i.imgur.com/36qbpEU.gifv)
+![SABarButtonView Example](http://i.imgur.com/36qbpEU.gif)
 
 
 For example lets say you have 3 TabBarButtons. You also need to have 3 toggle able views as well. Simply create 3 custom Views and connect them to toggleAbleViews OutletCollection of the SABarButtonView.
 
-![SABarButtonView Example](http://i.imgur.com/ir8cIcc.gifv)
+![SABarButtonView Example](http://i.imgur.com/ir8cIcc.gif)
 
 No all you need is to have an outlout for your SABarButtonView in you ViewController and set the "btnsTitles" property of the SABarButtonView.
 
