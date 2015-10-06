@@ -1,6 +1,6 @@
 {
   "name": "SABarButtonView",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A subclass of UIView which helps you to create toggle able views easily.",
   "description": "SABarButtonView easily lets you design and create your TabBar in Interface builder using IBDesignables. Configure your tabButtons and attached the toggle able views and thats all.",
   "homepage": "https://github.com/siavashalipour/SABarButtonView",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/siavashalipour/SABarButtonView.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"

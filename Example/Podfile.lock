@@ -1,5 +1,5 @@
 PODS:
-  - SABarButtonView (0.1.0)
+  - SABarButtonView (0.1.1)
 
 DEPENDENCIES:
   - SABarButtonView (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SABarButtonView: 5f0741376ad7b84855119db0e96e489f72f68349
+  SABarButtonView: 6d03e0d15971c50e9af0b3ca36b251d556bc917a
 
 COCOAPODS: 0.38.2
