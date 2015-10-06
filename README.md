@@ -9,7 +9,7 @@
 
 SABarButtonView is a simple UIView subclass that creates tabBarButtons and handle the toggles between the views for you. It is easy to use since you can modify almost all the TabBar component inside the interface builder.
 
-![SABarButtonView Example](http://i.imgur.com/tiibV4o.gifv)
+![SABarButtonView Example](http://imgur.com/ir8cIcc)
 
 ## Usage
 
