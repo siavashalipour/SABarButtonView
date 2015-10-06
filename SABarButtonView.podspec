@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "SABarButtonView"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A subclass of UIView which helps you to create toggle able views easily."
   s.description      = <<-DESC
                     SABarButtonView easily lets you design and create your TabBar in Interface builder using IBDesignables. Configure your tabButtons and attached the toggle able views and thats all.
