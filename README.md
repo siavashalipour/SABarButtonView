@@ -32,7 +32,7 @@ Simply add a UIView to your UIViewController and change to class to SABarButtonV
 
 For example lets say you have 3 TabBarButtons. You also need to have 3 toggle able views as well. Simply create 3 custom Views and connect them to toggleAbleViews OutletCollection of the SABarButtonView.
 
-![SABarButtonView Example](http://i.imgur.com/zYzIHeN.gif)
+![SABarButtonView Example](http://i.imgur.com/1Z2rle6.gif)
 
 No all you need is to have an outlout for your SABarButtonView in you ViewController and set the "btnsTitles" property of the SABarButtonView.
 
