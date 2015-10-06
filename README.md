@@ -27,12 +27,12 @@ pod "SABarButtonView"
 
 Simply add a UIView to your UIViewController and change to class to SABarButtonView. Then you can modify the properties by tapping on Attribute inspecter.
 
-![SABarButtonView Example](http://i.imgur.com/vjPrB05.gif)
+![SABarButtonView Example](http://i.imgur.com/36qbpEU.gif)
 
 
 For example lets say you have 3 TabBarButtons. You also need to have 3 toggle able views as well. Simply create 3 custom Views and connect them to toggleAbleViews OutletCollection of the SABarButtonView.
 
-![SABarButtonView Example](http://i.imgur.com/vjPrB05.gif)
+![SABarButtonView Example](http://i.imgur.com/zYzIHeN.gif)
 
 No all you need is to have an outlout for your SABarButtonView in you ViewController and set the "btnsTitles" property of the SABarButtonView.
 
