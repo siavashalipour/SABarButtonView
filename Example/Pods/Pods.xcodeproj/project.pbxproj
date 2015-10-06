@@ -9,65 +9,67 @@
 /* Begin PBXBuildFile section */
 		1F793DF8E28C87B83D1281CDC9B4C6B2 /* Pods-SABarButtonView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CDD889E0477C05CAC2AB0459AEF47B /* Pods-SABarButtonView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		589CA02571D364C10318BF46CF01CC90 /* Pods-SABarButtonView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B3C14237B672089339819C29BC408E /* Pods-SABarButtonView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A53DA2987477606444AE86238A2F3D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE05CF634FB12443E72731C3095237F1 /* Foundation.framework */; };
-		7B3841DB97F0F961618827AB73DCA70F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE05CF634FB12443E72731C3095237F1 /* Foundation.framework */; };
-		83CE8270D553D36FBA995266A37EE84D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C67806E5522964C35367811389A9B5 /* ReplaceMe.swift */; };
-		89F144DDF30FA1A8478841B36DAEE1DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE05CF634FB12443E72731C3095237F1 /* Foundation.framework */; };
-		976E8707BF618B5542F9F130CE6C7C86 /* SABarButtonView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 417B131DD8B2FF272AA6E46B285239BA /* SABarButtonView-dummy.m */; };
+		5A53DA2987477606444AE86238A2F3D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB4A15291D4AE8060C0B129301FEBC9 /* Foundation.framework */; };
+		89F144DDF30FA1A8478841B36DAEE1DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB4A15291D4AE8060C0B129301FEBC9 /* Foundation.framework */; };
+		B1287A3FE4EBDA8A9577F13A15F17B0A /* SABarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1585E55CDDFEE8B345A4B03516C87F69 /* SABarButtonView.swift */; };
+		B36DDF1AAB7239AAC661DDDB0B022FB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E01F60737A1DBEBA5DF91D7A7136408 /* UIKit.framework */; };
 		C68782D18EA0A3BED4F74980073ECC5F /* Pods-SABarButtonView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8BB4CC8A79697A13CC5C1FE81B788 /* Pods-SABarButtonView_Example-dummy.m */; };
+		C8FAB52630725D58A63BC3DC80E92F56 /* SABarButtonView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E546D2B6611BA6026A5AC3F94477BA65 /* SABarButtonView.bundle */; };
+		D0ECFABFE30486C94A540B3517FB5362 /* SABarButtonView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7E9A4E418DFE3510050D65DAFBD3723 /* SABarButtonView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D17E6EBC107959188BDB1F23CE9E0AF4 /* Pods-SABarButtonView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 669EB4E1DA47824BDA2E27AADFCA9CB5 /* Pods-SABarButtonView_Tests-dummy.m */; };
-		F14FAD7F38272738220F985D2C6B0C40 /* SABarButtonView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E546D2B6611BA6026A5AC3F94477BA65 /* SABarButtonView.bundle */; };
-		F4B0CA4D8E46CE227B2135EEEBA3A82A /* SABarButtonView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5834AA1A4FDD2065D402E13F317B7A29 /* SABarButtonView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2A70880FB54C84FCEF587955CE8AC3A /* SABarButtonView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A14E327B5EBD807F65230F337FF6266F /* SABarButtonView-dummy.m */; };
+		D6822315650FCCD277BD5EF65F0A48B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB4A15291D4AE8060C0B129301FEBC9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9563980CC253476BA82B2531A44A66B0 /* PBXContainerItemProxy */ = {
+		20166AAE15902038327F9C2B2E745255 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30D4974C9038511D10261F249454B06D;
+			remoteInfo = SABarButtonView;
+		};
+		31B770E1E59116DBEA8CF133AB4A9C97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30D4974C9038511D10261F249454B06D;
+			remoteInfo = SABarButtonView;
+		};
+		BF4D844E8C63051C1239CFBD2088DFD6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 27F4A9BE2FB58E46B8121C6FB457026C;
 			remoteInfo = "SABarButtonView-SABarButtonView";
 		};
-		DDE70FC8A875F17090F0C29E2B525EB7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 552EBEE7A79802E255B192B7D0A459D9;
-			remoteInfo = SABarButtonView;
-		};
-		E1B948F695555D48A3D0AF29D1472C72 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 552EBEE7A79802E255B192B7D0A459D9;
-			remoteInfo = SABarButtonView;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0384305D603D185F656A4F9643FA5631 /* Pods-SABarButtonView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SABarButtonView_Example.modulemap"; sourceTree = "<group>"; };
+		1585E55CDDFEE8B345A4B03516C87F69 /* SABarButtonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SABarButtonView.swift; sourceTree = "<group>"; };
 		182600D6265EA44E9A03E32863427705 /* Pods_SABarButtonView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SABarButtonView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E1DF1CC1DFCD943524C757C52AFB2E3 /* Pods-SABarButtonView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SABarButtonView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		22CA4D4214044A3C27201ADAF981C7F0 /* Pods-SABarButtonView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SABarButtonView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2A569E533630967E6832FF4C156F11F3 /* Pods-SABarButtonView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SABarButtonView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		383343A686E7C95461071F1219751321 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E2E46E2F6B3109A242494DE9B88000F /* SABarButtonView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SABarButtonView-Private.xcconfig"; sourceTree = "<group>"; };
-		402ADB3276327489E1A9BD581FFE6C48 /* SABarButtonView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SABarButtonView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		417B131DD8B2FF272AA6E46B285239BA /* SABarButtonView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SABarButtonView-dummy.m"; sourceTree = "<group>"; };
 		427A4B2F6D31F7181148678AED5848CC /* SABarButtonView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SABarButtonView-prefix.pch"; sourceTree = "<group>"; };
 		4E70D614F58B2FAD0267F6DC7BAAC0A5 /* Pods-SABarButtonView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SABarButtonView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		55B3C14237B672089339819C29BC408E /* Pods-SABarButtonView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SABarButtonView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		5834AA1A4FDD2065D402E13F317B7A29 /* SABarButtonView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SABarButtonView-umbrella.h"; sourceTree = "<group>"; };
 		5894E18B294C96C98023FFF7197DC3A2 /* Pods-SABarButtonView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SABarButtonView_Tests.modulemap"; sourceTree = "<group>"; };
+		5E01F60737A1DBEBA5DF91D7A7136408 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		5E5B1511E98EDAB2F6E4EB53161311C2 /* Pods-SABarButtonView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SABarButtonView_Tests-resources.sh"; sourceTree = "<group>"; };
 		669EB4E1DA47824BDA2E27AADFCA9CB5 /* Pods-SABarButtonView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SABarButtonView_Tests-dummy.m"; sourceTree = "<group>"; };
 		6B639F9699456506C2013B738E11B9F0 /* Pods-SABarButtonView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SABarButtonView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		83C67806E5522964C35367811389A9B5 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		8B0FE3BF71FBD0A80C832F3E6F4E340C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FAFF38667F7494E45DD1B8892FCB65B /* Pods-SABarButtonView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SABarButtonView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		9E800A4F1278EF6952A9E9374DB0044C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FCCDDA3E4B5B97FC7767AB963BBCA84 /* Pods-SABarButtonView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SABarButtonView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A14E327B5EBD807F65230F337FF6266F /* SABarButtonView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SABarButtonView-dummy.m"; sourceTree = "<group>"; };
+		B7E9A4E418DFE3510050D65DAFBD3723 /* SABarButtonView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SABarButtonView-umbrella.h"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAB4A15291D4AE8060C0B129301FEBC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		C0C8BB4CC8A79697A13CC5C1FE81B788 /* Pods-SABarButtonView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SABarButtonView_Example-dummy.m"; sourceTree = "<group>"; };
 		D7C1B0F11A9A10FB3CA6E45CD20D02B4 /* Pods-SABarButtonView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SABarButtonView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DCDB184A338A898A84DF788BA1C7EC04 /* SABarButtonView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SABarButtonView.modulemap; sourceTree = "<group>"; };
@@ -76,25 +78,26 @@
 		E546D2B6611BA6026A5AC3F94477BA65 /* SABarButtonView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SABarButtonView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB0B79050969250DDC9EDC6780D5C0D7 /* Pods_SABarButtonView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SABarButtonView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECA59BC55F330338D38A318A88050D70 /* Pods-SABarButtonView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SABarButtonView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		EE05CF634FB12443E72731C3095237F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F2CDD889E0477C05CAC2AB0459AEF47B /* Pods-SABarButtonView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SABarButtonView_Example-umbrella.h"; sourceTree = "<group>"; };
+		F3FCB25B12BA477C79F078F60D614C66 /* SABarButtonView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SABarButtonView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF320DDFC701D72754D4F5D2D446A28 /* Pods-SABarButtonView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SABarButtonView_Example-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		20723030C46222730C00966B07225C86 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7B3841DB97F0F961618827AB73DCA70F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		275E502DA67E06968E03B214D3C1F5A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5A53DA2987477606444AE86238A2F3D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392036838FC2370033FBFA9A92C826ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6822315650FCCD277BD5EF65F0A48B7 /* Foundation.framework in Frameworks */,
+				B36DDF1AAB7239AAC661DDDB0B022FB1 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,20 +136,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EE05CF634FB12443E72731C3095237F1 /* Foundation.framework */,
+				D0FB9306D21AF23A056944AE037CBFFF /* iOS */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		587C68FBEBB9F43025831A1D1BBFBE81 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				83C67806E5522964C35367811389A9B5 /* ReplaceMe.swift */,
-			);
-			path = Classes;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -154,7 +149,7 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				0BB76E9008E01994C1DAB2269407CD5A /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
 				26A4E88A299276B8A9AB862F916DA98A /* Targets Support Files */,
 			);
@@ -188,14 +183,6 @@
 			path = "Target Support Files/Pods-SABarButtonView_Tests";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		C0A07478DB51EAF799F9B60413CBB7F3 /* Pods-SABarButtonView_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,17 +207,34 @@
 				182600D6265EA44E9A03E32863427705 /* Pods_SABarButtonView_Example.framework */,
 				EB0B79050969250DDC9EDC6780D5C0D7 /* Pods_SABarButtonView_Tests.framework */,
 				E546D2B6611BA6026A5AC3F94477BA65 /* SABarButtonView.bundle */,
-				402ADB3276327489E1A9BD581FFE6C48 /* SABarButtonView.framework */,
+				F3FCB25B12BA477C79F078F60D614C66 /* SABarButtonView.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D0FB9306D21AF23A056944AE037CBFFF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BAB4A15291D4AE8060C0B129301FEBC9 /* Foundation.framework */,
+				5E01F60737A1DBEBA5DF91D7A7136408 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		DDAFBA9C3AE91D69B683AA04FBC0DF34 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				587C68FBEBB9F43025831A1D1BBFBE81 /* Classes */,
+				F9B03FFAA684A6D2374CB483E6E71019 /* Classes */,
 			);
 			path = Pod;
+			sourceTree = "<group>";
+		};
+		F9B03FFAA684A6D2374CB483E6E71019 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1585E55CDDFEE8B345A4B03516C87F69 /* SABarButtonView.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		FB65E0B3A0213D9FD5D960BCE4D2E7DF /* Support Files */ = {
@@ -240,9 +244,9 @@
 				DCDB184A338A898A84DF788BA1C7EC04 /* SABarButtonView.modulemap */,
 				E2E914741C6234A47D73244CA424F240 /* SABarButtonView.xcconfig */,
 				3E2E46E2F6B3109A242494DE9B88000F /* SABarButtonView-Private.xcconfig */,
-				417B131DD8B2FF272AA6E46B285239BA /* SABarButtonView-dummy.m */,
+				A14E327B5EBD807F65230F337FF6266F /* SABarButtonView-dummy.m */,
 				427A4B2F6D31F7181148678AED5848CC /* SABarButtonView-prefix.pch */,
-				5834AA1A4FDD2065D402E13F317B7A29 /* SABarButtonView-umbrella.h */,
+				B7E9A4E418DFE3510050D65DAFBD3723 /* SABarButtonView-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/SABarButtonView";
@@ -251,19 +255,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3B760832BB1D125015E02FE5F3D4BFBD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F4B0CA4D8E46CE227B2135EEEBA3A82A /* SABarButtonView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		67801B1771A38A3AC05A33B2EBCE9A23 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1F793DF8E28C87B83D1281CDC9B4C6B2 /* Pods-SABarButtonView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A479B5E83A854614A06B35A747CA6CFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0ECFABFE30486C94A540B3517FB5362 /* SABarButtonView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +293,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D2BED9EB531A6D145B5EB09B828A813B /* PBXTargetDependency */,
+				C29E6883E1048E21834FA0D460A2C175 /* PBXTargetDependency */,
 			);
 			name = "Pods-SABarButtonView_Tests";
 			productName = "Pods-SABarButtonView_Tests";
@@ -313,6 +317,25 @@
 			productReference = E546D2B6611BA6026A5AC3F94477BA65 /* SABarButtonView.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
+		30D4974C9038511D10261F249454B06D /* SABarButtonView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2AFFE1F42665863584F06FB740926FF /* Build configuration list for PBXNativeTarget "SABarButtonView" */;
+			buildPhases = (
+				B1A10D2FDD890F81BE00AD77893CAB85 /* Sources */,
+				392036838FC2370033FBFA9A92C826ED /* Frameworks */,
+				1BBA07F2F6F60504F74F74A4D6360CCA /* Resources */,
+				A479B5E83A854614A06B35A747CA6CFB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DD81A7A7C150405F69E9DC94313C161 /* PBXTargetDependency */,
+			);
+			name = SABarButtonView;
+			productName = SABarButtonView;
+			productReference = F3FCB25B12BA477C79F078F60D614C66 /* SABarButtonView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		342EC0768B9826FBE61A1FF5FC33F678 /* Pods-SABarButtonView_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00AD1EFAA50A3D1026CF76C1A0B08842 /* Build configuration list for PBXNativeTarget "Pods-SABarButtonView_Example" */;
@@ -324,30 +347,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				9F0733C36B098E390D07BBB848210B1D /* PBXTargetDependency */,
+				97EA7E5C8008F51116888D19F99FF7B2 /* PBXTargetDependency */,
 			);
 			name = "Pods-SABarButtonView_Example";
 			productName = "Pods-SABarButtonView_Example";
 			productReference = 182600D6265EA44E9A03E32863427705 /* Pods_SABarButtonView_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		552EBEE7A79802E255B192B7D0A459D9 /* SABarButtonView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 724F2458B1E5215679290725B749845F /* Build configuration list for PBXNativeTarget "SABarButtonView" */;
-			buildPhases = (
-				6D2D0995FE7E378E8B956A067ED5835F /* Sources */,
-				20723030C46222730C00966B07225C86 /* Frameworks */,
-				8687601B91B8DF9DEE36B39BA0241CAA /* Resources */,
-				3B760832BB1D125015E02FE5F3D4BFBD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B82515C28D5A5E2D0701203FEAEF9ACF /* PBXTargetDependency */,
-			);
-			name = SABarButtonView;
-			productName = SABarButtonView;
-			productReference = 402ADB3276327489E1A9BD581FFE6C48 /* SABarButtonView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -373,13 +377,21 @@
 			targets = (
 				342EC0768B9826FBE61A1FF5FC33F678 /* Pods-SABarButtonView_Example */,
 				04664DA3F65E5E9820CDD456BE7AFA2D /* Pods-SABarButtonView_Tests */,
-				552EBEE7A79802E255B192B7D0A459D9 /* SABarButtonView */,
+				30D4974C9038511D10261F249454B06D /* SABarButtonView */,
 				27F4A9BE2FB58E46B8121C6FB457026C /* SABarButtonView-SABarButtonView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1BBA07F2F6F60504F74F74A4D6360CCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8FAB52630725D58A63BC3DC80E92F56 /* SABarButtonView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5C88060A60F67263AA3BCE113D35E4D1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -387,30 +399,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8687601B91B8DF9DEE36B39BA0241CAA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F14FAD7F38272738220F985D2C6B0C40 /* SABarButtonView.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6D2D0995FE7E378E8B956A067ED5835F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				83CE8270D553D36FBA995266A37EE84D /* ReplaceMe.swift in Sources */,
-				976E8707BF618B5542F9F130CE6C7C86 /* SABarButtonView-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		71260568DA6333CB136514485F1B7EA2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1A10D2FDD890F81BE00AD77893CAB85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A70880FB54C84FCEF587955CE8AC3A /* SABarButtonView-dummy.m in Sources */,
+				B1287A3FE4EBDA8A9577F13A15F17B0A /* SABarButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,23 +437,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9F0733C36B098E390D07BBB848210B1D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SABarButtonView;
-			target = 552EBEE7A79802E255B192B7D0A459D9 /* SABarButtonView */;
-			targetProxy = E1B948F695555D48A3D0AF29D1472C72 /* PBXContainerItemProxy */;
-		};
-		B82515C28D5A5E2D0701203FEAEF9ACF /* PBXTargetDependency */ = {
+		0DD81A7A7C150405F69E9DC94313C161 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "SABarButtonView-SABarButtonView";
 			target = 27F4A9BE2FB58E46B8121C6FB457026C /* SABarButtonView-SABarButtonView */;
-			targetProxy = 9563980CC253476BA82B2531A44A66B0 /* PBXContainerItemProxy */;
+			targetProxy = BF4D844E8C63051C1239CFBD2088DFD6 /* PBXContainerItemProxy */;
 		};
-		D2BED9EB531A6D145B5EB09B828A813B /* PBXTargetDependency */ = {
+		97EA7E5C8008F51116888D19F99FF7B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SABarButtonView;
-			target = 552EBEE7A79802E255B192B7D0A459D9 /* SABarButtonView */;
-			targetProxy = DDE70FC8A875F17090F0C29E2B525EB7 /* PBXContainerItemProxy */;
+			target = 30D4974C9038511D10261F249454B06D /* SABarButtonView */;
+			targetProxy = 20166AAE15902038327F9C2B2E745255 /* PBXContainerItemProxy */;
+		};
+		C29E6883E1048E21834FA0D460A2C175 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SABarButtonView;
+			target = 30D4974C9038511D10261F249454B06D /* SABarButtonView */;
+			targetProxy = 31B770E1E59116DBEA8CF133AB4A9C97 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -475,33 +479,6 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = Pods_SABarButtonView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		0D9F516E6CCD42ADD8EA2C3C267B24F9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E2E46E2F6B3109A242494DE9B88000F /* SABarButtonView-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SABarButtonView/SABarButtonView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SABarButtonView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SABarButtonView/SABarButtonView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SABarButtonView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -655,19 +632,7 @@
 			};
 			name = Debug;
 		};
-		D9B8A11FCFF5AF96DFA4E2CCD3F72125 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E2E46E2F6B3109A242494DE9B88000F /* SABarButtonView-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = SABarButtonView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		DE397E2EFC99A07E4A3666699FD7F297 /* Debug */ = {
+		9BDC8B3F9579C85294457784B5CB75BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3E2E46E2F6B3109A242494DE9B88000F /* SABarButtonView-Private.xcconfig */;
 			buildSettings = {
@@ -692,6 +657,45 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7BAC839435BBCB605F5FAAE8EDF94D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E2E46E2F6B3109A242494DE9B88000F /* SABarButtonView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SABarButtonView/SABarButtonView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SABarButtonView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SABarButtonView/SABarButtonView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SABarButtonView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D9B8A11FCFF5AF96DFA4E2CCD3F72125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E2E46E2F6B3109A242494DE9B88000F /* SABarButtonView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SABarButtonView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -754,20 +758,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		724F2458B1E5215679290725B749845F /* Build configuration list for PBXNativeTarget "SABarButtonView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DE397E2EFC99A07E4A3666699FD7F297 /* Debug */,
-				0D9F516E6CCD42ADD8EA2C3C267B24F9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		C224FCF353D6A71D9FF28926FAAAFBB7 /* Build configuration list for PBXNativeTarget "SABarButtonView-SABarButtonView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D9B8A11FCFF5AF96DFA4E2CCD3F72125 /* Debug */,
 				765668741F738E9511B9694AAC19CCB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2AFFE1F42665863584F06FB740926FF /* Build configuration list for PBXNativeTarget "SABarButtonView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BDC8B3F9579C85294457784B5CB75BF /* Debug */,
+				B7BAC839435BBCB605F5FAAE8EDF94D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

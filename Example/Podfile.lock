@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SABarButtonView: b4ac7a4179776617a4cf9bc19cabef04c5bb9bea
+  SABarButtonView: 5f0741376ad7b84855119db0e96e489f72f68349
 
 COCOAPODS: 0.38.2

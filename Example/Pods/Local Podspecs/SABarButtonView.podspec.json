@@ -1,15 +1,15 @@
 {
   "name": "SABarButtonView",
   "version": "0.1.0",
-  "summary": "A short description of SABarButtonView.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/SABarButtonView",
+  "summary": "A subclass of UIView which helps you to create toggle able views easily.",
+  "description": "SABarButtonView easily lets you design and create your TabBar in Interface builder using IBDesignables. Configure your tabButtons and attached the toggle able views and thats all.",
+  "homepage": "https://github.com/siavashalipour/SABarButtonView",
   "license": "MIT",
   "authors": {
     "Siavash": "siavash.apps@yahoo.coom"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/SABarButtonView.git",
+    "git": "https://github.com/siavashalipour/SABarButtonView.git",
     "tag": "0.1.0"
   },
   "platforms": {
@@ -21,5 +21,6 @@
     "SABarButtonView": [
       "Pod/Assets/*.png"
     ]
-  }
+  },
+  "frameworks": "UIKit"
 }

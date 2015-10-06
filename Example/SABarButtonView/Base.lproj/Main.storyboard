@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="SABarButtonView_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,11 +17,121 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F5J-EU-1Sl" customClass="SABarButtonView" customModule="SABarButtonView_Example" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="80" width="600" height="520"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isPositionTop" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="buttonsNum">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedColor">
+                                        <color key="value" red="0.54694194360000004" green="0.57831220910000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="normalColor">
+                                        <color key="value" red="0.87266610840000003" green="0.97508903270000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="separatorColor">
+                                        <color key="value" red="1" green="0.4166712232" blue="0.0016079409359999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="separatorHeight">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineHeight">
+                                        <real key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="lineSelectedColor">
+                                        <color key="value" red="1" green="0.1199872273" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="toggleAbleViews" destination="9Sl-el-8cb" collectionClass="NSMutableArray" id="DNy-en-AH2"/>
+                                    <outletCollection property="toggleAbleViews" destination="3VL-as-BZi" collectionClass="NSMutableArray" id="MZU-0G-f8A"/>
+                                    <outletCollection property="toggleAbleViews" destination="ccu-s8-eEO" collectionClass="NSMutableArray" id="Mri-oA-3vT"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="F5J-EU-1Sl" secondAttribute="bottom" id="A8q-Cv-0yo"/>
+                            <constraint firstItem="F5J-EU-1Sl" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-20" id="JXI-bx-56h"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="F5J-EU-1Sl" secondAttribute="trailing" constant="-20" id="VMv-v0-hNp"/>
+                            <constraint firstItem="F5J-EU-1Sl" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="60" id="mES-uZ-MTU"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tabBar" destination="F5J-EU-1Sl" id="JRp-hJ-cT7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" id="9Sl-el-8cb" userLabel="View1">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="465"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vKy-h0-Qcl">
+                            <rect key="frame" x="275.5" y="222.5" width="49" height="20.5"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" red="1" green="0.97996362319999997" blue="0.57150462639999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="vKy-h0-Qcl" firstAttribute="centerX" secondItem="9Sl-el-8cb" secondAttribute="centerX" id="UYB-S4-gPr"/>
+                        <constraint firstItem="vKy-h0-Qcl" firstAttribute="centerY" secondItem="9Sl-el-8cb" secondAttribute="centerY" id="nZD-Uh-UDn"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" id="3VL-as-BZi" userLabel="View2">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="465"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3vW-jb-hHs" userLabel="View 2">
+                            <rect key="frame" x="274.5" y="222.5" width="51.5" height="20.5"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" red="0.54694194360000004" green="0.57831220910000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="3vW-jb-hHs" firstAttribute="centerX" secondItem="3VL-as-BZi" secondAttribute="centerX" id="QTb-OB-1az"/>
+                        <constraint firstItem="3vW-jb-hHs" firstAttribute="centerY" secondItem="3VL-as-BZi" secondAttribute="centerY" id="mwi-2Y-vpQ"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" id="ccu-s8-eEO" userLabel="View3">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="465"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O9X-7P-ZY5" userLabel="View 2">
+                            <rect key="frame" x="274" y="222.5" width="52" height="20.5"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" red="1" green="0.72111603590722462" blue="0.23357363074947302" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="O9X-7P-ZY5" firstAttribute="centerY" secondItem="ccu-s8-eEO" secondAttribute="centerY" id="IDi-L1-qxH"/>
+                        <constraint firstItem="O9X-7P-ZY5" firstAttribute="centerX" secondItem="ccu-s8-eEO" secondAttribute="centerX" id="rYT-Q3-9Ja"/>
+                    </constraints>
+                </view>
             </objects>
+            <point key="canvasLocation" x="294" y="357"/>
         </scene>
     </scenes>
 </document>

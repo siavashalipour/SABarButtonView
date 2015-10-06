@@ -10,9 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var tabBar:SABarButtonView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        tabBar.btnsTitles = ["View 1","View 2","View 3"]
     }
 
     override func didReceiveMemoryWarning() {

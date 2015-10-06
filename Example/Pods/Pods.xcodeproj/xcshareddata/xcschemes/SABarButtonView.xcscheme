@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6B90536FF88404EEAC40BDA1"
+               BlueprintIdentifier = "56AB1055815DE191CFA24B0B"
                BuildableName = "SABarButtonView.framework"
                BlueprintName = "SABarButtonView"
                ReferencedContainer = "container:Pods.xcodeproj">
