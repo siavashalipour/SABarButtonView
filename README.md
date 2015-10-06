@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/SABarButtonView.svg?style=flat)](http://cocoapods.org/pods/SABarButtonView)
 [![Platform](https://img.shields.io/cocoapods/p/SABarButtonView.svg?style=flat)](http://cocoapods.org/pods/SABarButtonView)
 
-## What it is?
+## What is it?
 
 SABarButtonView is a simple UIView subclass that creates tabBarButtons and handle the toggles between the views for you. It is easy to use since you can modify almost all the TabBar component inside the interface builder.
 
